@@ -4,6 +4,7 @@ public class Box {
     int length;
     int width;
     int height;
+    String box;
 
     public Box(int length, int width, int height) {
         this.length = length;
@@ -18,4 +19,15 @@ public class Box {
             return false;
         }
     }
+
+    @Override
+    public String toString() {
+        return "box";
+    }
+
+    {
+
+    }
+
+
 }
